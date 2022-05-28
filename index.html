@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="titel">
+        <h1>Bongo Clicker</h1>
+      </div>
+      <div class="bongo-content-container">
+        <div class="bong-pic">
+          <button id="bongo-pic">
+            <img src="bongoup.png" alt="da bongo cat" />
+          </button>
+        </div>
+        <div class="current-bongo-amount">
+          <h2>Amount of bongs you have: <span data-bongos>0</span></h2>
+        </div>
+      </div>
+
+      <div class="instruc">
+        <h3>Click the bongocat to get bongos!</h3>
+      </div>
+    </div>
+
+    <div class="stat-container">
+      <div class="stat-single">
+        <h2>Amount of bongos: <span data-bongoamount>1</span></h2>
+      </div>
+      <div class="stat-single">
+        <h2>Bongos strength: <span data-bongocp>1</span></h2>
+      </div>
+    </div>
+
+    <div class="upgrade-container">
+      <div class="upgrade-buttons">
+        <div class="button-strength">
+          <button id="bongo-strength">Upgrade bongo amount</button>
+          <h2>cost: <span data-cpcost>10</span></h2>
+        </div>
+        <div class="button-amount">
+          <button id="bongo-amount">Upgrade bongo strength</button>
+          <h2>cost: <span data-amountcost>10</span></h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>

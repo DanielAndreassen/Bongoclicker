@@ -1,0 +1,56 @@
+* {
+  border: 0px;
+  font-family: 'Bebas Neue', cursive;
+  background-color: gray;
+}
+
+.top {
+  margin: auto;
+  width: 50%;
+}
+
+.titel {
+  margin: auto;
+  width: 50%;
+}
+
+.bongo-content-container {
+  margin: auto;
+  width: 50%;
+}
+
+.instruc {
+  margin: auto;
+  width: 50%;
+}
+
+button {
+  font-size: 25px;
+  size: 2px;
+  background-color: #555555;
+  padding: 15px 32px;
+  transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: white;
+    
+}
+
+.upgrade-buttons {
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.stat-container {
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
